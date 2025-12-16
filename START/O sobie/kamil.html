@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kamil</title>
+    <meta name="description" content="Informacje o mnie"> 
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Kamil Grzomba">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+<div >
+    <h1 style="text-align: center;">Informacje.</h1>
+        <img  src="default-avatar.png" class="avatar" width="150px" height="150px" alt="Zdjęcie profilowe" >
+        <div>
+            <h2>Kamil Grzomba.</h2>
+                <span>Witaj na stronie HTML o Kamilu.</span>
+                    <p>Na tym dokumencie dowiesz się więcej o <b>Kamilu.</b></p>
+    </div>
+</div>
+<section>
+    <h2>O mnie</h2>
+    <p>Cześć jestem <b>Kamil</b> aka <b>SKRYPLEK</b> i uczę
+    się programować.</p>
+</section>
+<section>
+    <h2>Zainteresowania</h2>
+    <ul class="hobbies">
+        <li>
+            <img src="iconmonstr-basketball-2-32.png">
+            <div>
+                <h3>Pilka ręczna</h3>  
+                <p>Pilka ręczna to genialny, intensywny, szybki i
+                    zdyscyplinowany sport za to go kocham.</p>
+            </div>
+        </li>
+        <li>
+            <img src="iconmonstr-code-thin-32.png">
+            <div>
+                <h3>Programowanie</h3>
+                <p>
+                    Jak się o tym dowiedzialem to bardzo 
+                    mi się to spodobalo dlatego chcę się
+                    nauczyć.
+                </p>
+            </div>
+        </li>
+        <li>
+            <img src="iconmonstr-gamepad-17-32.png">
+            <div>
+                <h3>Gry</h3>
+                <p>Mam 13 lat więc to chyba normalne.</p>
+            </div>
+        </li>
+        <li>
+            <img src="iconmonstr-boxing-2-32.png">
+            <div>
+                <h3>Bieganie</h3>
+                <p>
+                    Biegam aby się rozwijać w sporcie który
+                    uprawiam na codzień.
+                </p>
+            </div>
+        </li>
+    </ul>
+</section>
+<section id="contact">
+    <h2>Kontakt</h2>
+        <span>
+            Aby skontaktować się z mną wypelnij puste pola
+            poniżej
+        </span>
+        <form action="/submit-form" method="post">
+            <label for="name"><u>Imię:</u></label>
+            <input type="text" id="name" name="name" reguired>
+
+            <label for="email"><u>Email:</u></label>
+            <input type="email" id="email" name="email" reguired> 
+
+            <label for="message"><u>Wiadomość:</u></label>
+            <textarea id="message" name="message" reguired></textarea>
+
+            <button type="submit">Wyślij</button>
+        </form>
+</section>
+
+</body>
+</html>

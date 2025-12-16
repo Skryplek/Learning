@@ -1,0 +1,44 @@
+.body {
+    background-color: white;
+    background-image: url(1900911.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background: linear-gradient(to bottom, white, black);
+    min-height: 100vh;
+}
+
+
+.hobbies {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.hobbies li {
+    width: 50%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.hobbies div {
+    margin-left: 20px
+}
+
+.hobbies p {
+    color: grey;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.avatar {
+width: 150px;
+height: 150px;
+border-radius: 100px;
+object-fit: cover;
+}

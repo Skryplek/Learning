@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="decription" content="Opis mojej strony.">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="author" content="Kamil Grzomba">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <style>
+        p {
+            color: blue;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    
+    <div style="text-align: center;"><p>Tekst Będzie wyśrodkowany</p></div>
+    <h3>Obramowanie</h3>
+    <p>Obramowanie</p>
+        <p style="color: green; font-weight: bold;">Tekst będzie koloru zielonego, pogrubiony.</p>
+            <h1>Witaj świecie!</h1>
+            <p>To jest mój pierwszy dokument html.</p>
+                <header>
+                    <h1>Moja strona</h1>
+                    <nav>
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </header>
+
+                <main>
+                    <section id="home">
+                        <h2 >Strona Glówna</h2>
+                        <p>Witaj na mojej stronie glównej!</p>
+                    </section>
+
+                    <section id="about">
+                        <h2>O mnie</h2>
+                        <p>Infromacje o mnie.</p>
+                    </section>
+
+                    <section id="services">
+                        <h2>Uslugi</h2>
+                        <ul>
+                            <li>Tworzenie stron internetowych</li>
+                            <li>Optymalizacja SEO</li>
+                            <li>Wspracie techniczne</li>
+                        </ul>
+                    </section>
+
+                    <section id="contact">
+                        <h2>Kontakt</h2>
+                        <form action="/submit-form" method="post">
+                            <label for="name"><u>Imię:</u></label>
+                            <input type="text" id="name" name="name" reguired>
+
+                            <label for="email"><u>Email:</u></label>
+                            <input type="email" id="email" name="email" reguired> 
+
+                            <label for="message"><u>Wiadomość:</u></label>
+                            <textarea id="message" name="message" reguired></textarea>
+
+                            <button type="submit">Wyślij</button>
+                        </form>
+                    </section>
+                </main>
+
+                <footer>
+                    <p>&copy; 2025 Moja strona</p>
+                </footer>
+    </body>
+</html>
